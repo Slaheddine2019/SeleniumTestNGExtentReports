@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-09T18:07:08Z" name="Suite" finished-at="2023-01-09T18:07:31Z" duration-ms="23765">
+    <groups>
+    </groups>
+    <test started-at="2023-01-09T18:07:08Z" name="Test" finished-at="2023-01-09T18:07:31Z" duration-ms="23765">
+      <class name="com.todos.tests.AutentificateTests">
+        <test-method is-config="true" signature="runBeforeSuite()[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:07Z" name="runBeforeSuite" finished-at="2023-01-09T19:07:08Z" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeSuite -->
+        <test-method is-config="true" signature="setupTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:08Z" name="setupTest" finished-at="2023-01-09T19:07:10Z" duration-ms="2948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.todos.tests.AutentificateTests.loginWithInValidCredentiels(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="loginWithInValidCredentiels(java.lang.String, java.lang.String)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:10Z" name="loginWithInValidCredentiels" data-provider="getData" finished-at="2023-01-09T19:07:11Z" duration-ms="591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidCredentiels -->
+        <test-method is-config="true" signature="cleanTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:11Z" name="cleanTest" finished-at="2023-01-09T19:07:14Z" duration-ms="2681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.todos.tests.AutentificateTests.loginWithInValidCredentiels(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=loginWithInValidCredentiels status=SUCCESS method=AutentificateTests.loginWithInValidCredentiels(java.lang.String, java.lang.String)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:14Z" name="setupTest" finished-at="2023-01-09T19:07:16Z" duration-ms="2039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.todos.tests.AutentificateTests.loginWithInValidCredentiels(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="loginWithInValidCredentiels(java.lang.String, java.lang.String)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:16Z" name="loginWithInValidCredentiels" data-provider="getData" finished-at="2023-01-09T19:07:16Z" duration-ms="469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidCredentiels -->
+        <test-method is-config="true" signature="cleanTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:16Z" name="cleanTest" finished-at="2023-01-09T19:07:19Z" duration-ms="2951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.todos.tests.AutentificateTests.loginWithInValidCredentiels(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=loginWithInValidCredentiels status=SUCCESS method=AutentificateTests.loginWithInValidCredentiels(java.lang.String, java.lang.String)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:19Z" name="setupTest" finished-at="2023-01-09T19:07:21Z" duration-ms="1998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.todos.tests.AutentificateTests.loginWithInValidCredentiels(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="loginWithInValidCredentiels(java.lang.String, java.lang.String)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:21Z" name="loginWithInValidCredentiels" data-provider="getData" finished-at="2023-01-09T19:07:22Z" duration-ms="575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidCredentiels -->
+        <test-method is-config="true" signature="cleanTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:22Z" name="cleanTest" finished-at="2023-01-09T19:07:24Z" duration-ms="2653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.todos.tests.AutentificateTests.loginWithInValidCredentiels(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=loginWithInValidCredentiels status=SUCCESS method=AutentificateTests.loginWithInValidCredentiels(java.lang.String, java.lang.String)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:24Z" name="setupTest" finished-at="2023-01-09T19:07:26Z" duration-ms="1803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.todos.tests.AutentificateTests.loginWithValidCredentiels() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="loginWithValidCredentiels()[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:26Z" name="loginWithValidCredentiels" finished-at="2023-01-09T19:07:27Z" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentiels -->
+        <test-method is-config="true" signature="cleanTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:27Z" name="cleanTest" finished-at="2023-01-09T19:07:31Z" duration-ms="4586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.todos.tests.AutentificateTests.loginWithValidCredentiels() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidCredentiels status=SUCCESS method=AutentificateTests.loginWithValidCredentiels()[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTest -->
+        <test-method is-config="true" signature="runAfterSuite()[pri:0, instance:com.todos.tests.AutentificateTests@64c63c79]" started-at="2023-01-09T19:07:31Z" name="runAfterSuite" finished-at="2023-01-09T19:07:32Z" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAfterSuite -->
+      </class> <!-- com.todos.tests.AutentificateTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

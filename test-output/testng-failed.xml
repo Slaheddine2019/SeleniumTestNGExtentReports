@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test parallel="none" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.todos.tests.AutantificateTests">
+        <methods>
+          <include name="setupTest"/>
+          <include name="loginWithInValidCredentiels" invocation-numbers="0 1 2"/>
+          <include name="cleanTest"/>
+          <include name="runBeforeSuite"/>
+          <include name="runAfterSuite"/>
+        </methods>
+      </class> <!-- com.todos.tests.AutantificateTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
